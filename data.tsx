@@ -61,15 +61,15 @@ export const dataSlider = [
     },
     {
         id: 2,
-        url: "/slider-2.jpg",
+        url: "/slider-1.jpg",
     },
     {
         id: 3,
-        url: "/slider-3.jpg",
+        url: "/slider-1.jpg",
     },
     {
         id: 4,
-        url: "/slider-4.jpg",
+        url: "/slider-1.jpg",
     },
 ]
 
