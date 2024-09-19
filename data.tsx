@@ -5,19 +5,19 @@ export const dataAboutMe = [
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "+4 años de experiencia",
+        description: "+1 año de experiencia",
     },
     {
         id: 2,
         name: "Clientes",
         icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
+        description: "0 clientes satisfechos",
     },
     {
         id: 3,
         name: "Proyectos",
         icon: <Wrench />,
-        description: "+50 completados",
+        description: "+10 completados",
     },
 ];
 
@@ -76,46 +76,46 @@ export const dataSlider = [
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        title: "Password Manager",
+        image: "/slider-1.jpg",
+        urlGithub: "https://github.com/Boloxxx/password-manager",
+        urlDemo: "https://password-manager-umber.vercel.app/",
     },
-    {
-        id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    // {
+    //     id: 2,
+    //     title: "Desarrollo Web Ágil",
+    //     image: "/image-2.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 3,
+    //     title: "Estrategias Web",
+    //     image: "/image-3.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 4,
+    //     title: "Navegando Ideas Creativas",
+    //     image: "/image-4.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 5,
+    //     title: "Sitios Web Impactantes",
+    //     image: "/image-5.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 6,
+    //     title: "Proyectos Web Dinámicos",
+    //     image: "/image-6.jpg",
+    //     urlGithub: "#!",
+    //     urlDemo: "#!",
+    // },
 ];
 
 
@@ -136,18 +136,18 @@ export const dataExperience = [
             },
             {
                 name: "JavaScript",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 60,
             },
             {
                 name: "Tailwind CSS",
-                subtitle: "Experimentado",
-                value: 30,
+                subtitle: "Intermedio",
+                value: 50,
             },
             {
                 name: "React",
-                subtitle: "Experimentado",
-                value: 60,
+                subtitle: "Basic",
+                value: 40,
             },
             {
                 name: "Bootstrap",
@@ -161,34 +161,19 @@ export const dataExperience = [
         title: "Backend Development  🥷",
         experience: [
             {
-                name: "Node JS",
-                subtitle: "Experimentado",
-                value: 80,
-            },
-            {
-                name: "Mongo DB",
-                subtitle: "Intermedio",
-                value: 75,
-            },
-            {
                 name: "Python",
                 subtitle: "Basic",
-                value: 60,
+                value: 30,
             },
             {
                 name: "MySQL",
-                subtitle: "Experimentado",
-                value: 60,
+                subtitle: "Intermedio",
+                value: 40,
             },
             {
                 name: "PHP",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "Django",
                 subtitle: "Basic",
-                value: 60,
+                value: 30,
             },
         ],
     },
@@ -224,37 +209,37 @@ export const dataServices = [
             },
         ],
     },
-    {
-        id: 2,
-        title: "Creación de contenido",
-        icon: <BellPlus />,
-        features: [
-            {
-                name: "Redacción de contenido original y de calidad",
-            },
-            {
-                name: "Creación de vídeos atractivos y dinámicos",
-            },
-            {
-                name: "Diseño gráfico para una imagen impactante",
-            },
-            {
-                name: "Edición profesional de textos y materiales visuales",
-            },
-            {
-                name: "Estrategias de marketing de contenidos efectivas",
-            },
-            {
-                name: "Producción de podcasts informativos y entretenidos",
-            },
-            {
-                name: "Generación de infografías claras y visualmente atractivas",
-            },
-            {
-                name: "Fotografía profesional para capturar momentos excepcionales",
-            },
-        ],
-    },
+    // {
+    //     id: 2,
+    //     title: "Creación de contenido",
+    //     icon: <BellPlus />,
+    //     features: [
+    //         {
+    //             name: "Redacción de contenido original y de calidad",
+    //         },
+    //         {
+    //             name: "Creación de vídeos atractivos y dinámicos",
+    //         },
+    //         {
+    //             name: "Diseño gráfico para una imagen impactante",
+    //         },
+    //         {
+    //             name: "Edición profesional de textos y materiales visuales",
+    //         },
+    //         {
+    //             name: "Estrategias de marketing de contenidos efectivas",
+    //         },
+    //         {
+    //             name: "Producción de podcasts informativos y entretenidos",
+    //         },
+    //         {
+    //             name: "Generación de infografías claras y visualmente atractivas",
+    //         },
+    //         {
+    //             name: "Fotografía profesional para capturar momentos excepcionales",
+    //         },
+    //     ],
+    // },
     {
         id: 3,
         title: "UI/UX Design",

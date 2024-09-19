@@ -58,7 +58,7 @@ export default function AboutMe() {
             (UTESA). Además, me apasiona la programación web y he desarrollado
             mis habilidades de manera autodidacta. A lo largo de mi aprendizaje,
             he adquirido experiencia en tecnologías como HTML, CSS, JavaScript,
-            Sass, TypeScript, React, Tailwind, Git, y GitHub. Estoy comprometido
+            Sass, TypeScript, React, Next.js, Tailwind, MySQL, Git, y GitHub. Estoy comprometido
             con seguir creciendo en el campo del desarrollo web y aplicar mis
             conocimientos en proyectos desafiantes y de alto impacto.
           </p>
