@@ -290,7 +290,7 @@ export const dataContact = [
     id: 2,
     title: "Github",
     subtitle: "github.com/boloxxx",
-    link: "github.com/boloxxx",
+    link: "https://github.com/Boloxxx/",
     icon: <Code2 />,
   },
   {
