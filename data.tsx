@@ -202,7 +202,7 @@ export const dataServices = [
                 name: "Gestión de contenido",
             },
             {
-                name: "Comercio electrónico",
+                name: "E-commerce",
             },
             {
                 name: "Mantenimiento y soporte continuo",
@@ -240,31 +240,31 @@ export const dataServices = [
     //         },
     //     ],
     // },
-    {
-        id: 3,
-        title: "UI/UX Design",
-        icon: <Brush />,
-        features: [
-            {
-                name: "Diseño intuitivo para una experiencia de usuario fluida",
-            },
-            {
-                name: "Prototipado interactivo para visualizar la interfaz",
-            },
-            {
-                name: "Investigación de usuarios para comprender necesidades y expectativas",
-            },
-            {
-                name: "Optimización de la usabilidad para mejorar la accesibilidad",
-            },
-            {
-                name: "Pruebas de usabilidad para evaluar la experiencia",
-            },
-            {
-                name: "Diseño responsive para adaptarse a diferentes dispositivos",
-            },
-        ],
-    },
+    // {
+    //     id: 3,
+    //     title: "UI/UX Design",
+    //     icon: <Brush />,
+    //     features: [
+    //         {
+    //             name: "Diseño intuitivo para una experiencia de usuario fluida",
+    //         },
+    //         {
+    //             name: "Prototipado interactivo para visualizar la interfaz",
+    //         },
+    //         {
+    //             name: "Investigación de usuarios para comprender necesidades y expectativas",
+    //         },
+    //         {
+    //             name: "Optimización de la usabilidad para mejorar la accesibilidad",
+    //         },
+    //         {
+    //             name: "Pruebas de usabilidad para evaluar la experiencia",
+    //         },
+    //         {
+    //             name: "Diseño responsive para adaptarse a diferentes dispositivos",
+    //         },
+    //     ],
+    // },
 ];
 
 
@@ -272,22 +272,22 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
+        subtitle: "+1 829 647 0829",
+        link: "tel:+18296470829",
         icon: <Phone />,
     },
     {
         id: 2,
         title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
+        subtitle: "github.com/boloxxx",
+        link: "github.com/boloxxx",
         icon: <Code2 />,
     },
     {
         id: 3,
         title: "Email",
-        subtitle: "email@email.com",
-        link: "mailto:test@test.com",
+        subtitle: "bryanrodriguezalmonte@gmail.com",
+        link: "mailto:bryanrodriguezalmonte@gmail.com",
         icon: <Inbox />,
     },
 ];
