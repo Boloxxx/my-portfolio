@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { Mail, Paperclip } from "lucide-react";
-import Image from "next/image";
 import Container from "./shared/Container";
+import Socials from "./Socials";
+import ImageProfile from "./ImageProfile";
 
 export default function Introduction() {
   return (
@@ -25,14 +26,12 @@ export default function Introduction() {
             </Link>
           </div>
         </div>
+        <div className="mb-8 xl:mb-0 flex justify-center mt-5">
+          <Socials containerStyles="flex gap-6" iconStyles="w-9 text-2xl h-9 border-accent rounded-full flex justify-center items-center text-accent text-slate-800 dark:text-gray-100 hover:bg-accent hover-text-primary hover:transition-all duration-500 "/>
+          {/* iCONS */}
+        </div>
         <div className="mt-10 flex justify-center">
-          <Image
-          className="rounded-full"
-            src="/profile.jpg"
-            alt="Profile pic"
-            width={350}
-            height={350}
-          />
+          <ImageProfile/>
         </div>
       </div>
     </Container>

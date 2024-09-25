@@ -1,9 +1,10 @@
 import { dataAboutMe, dataSlider } from "@/data";
 import { Title } from "./shared/Title";
-import { Button } from "./ui/button";
+import { Button, buttonVariants } from "./ui/button";
 import { Phone } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
@@ -62,10 +63,10 @@ export default function AboutMe() {
             con seguir creciendo en el campo del desarrollo web y aplicar mis
             conocimientos en proyectos desafiantes y de alto impacto.
           </p>
-          <Button>
+          <Link className={buttonVariants()} href="#contact">
             <Phone size={20} className="mr-2" />
             Hablame
-          </Button>
+          </Link>
         </div>
       </div>
     </div>
