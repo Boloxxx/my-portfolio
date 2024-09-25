@@ -4,7 +4,7 @@
 
 ## Tecnologías Utilizadas
 - **Frontend:** React, Next.js, Tailwind CSS, FramerMotion
-- **Otros:** TypeScript, Git
+- **Otros:** TypeScript, Git, Shadcn, ReactIcons
 
 ## Instalación
 Para clonar este repositorio, usa el siguiente comando:
