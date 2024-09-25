@@ -39,7 +39,7 @@ export const itemsNavbar = [
     id: 1,
     title: "Home",
     icon: <Home size={20} />,
-    link: "/",
+    link: "#",
   },
   {
     id: 2,
@@ -74,16 +74,16 @@ export const dataSlider = [
   },
   {
     id: 2,
-    url: "/slider-1.jpg",
+    url: "/portfolio.png",
   },
-  {
-    id: 3,
-    url: "/slider-1.jpg",
-  },
-  {
-    id: 4,
-    url: "/slider-1.jpg",
-  },
+  // {
+  //   id: 3,
+  //   url: "/slider-1.jpg",
+  // },
+  // {
+  //   id: 4,
+  //   url: "/slider-1.jpg",
+  // },
 ];
 
 export const dataPortfolio = [
@@ -94,13 +94,13 @@ export const dataPortfolio = [
     urlGithub: "https://github.com/Boloxxx/password-manager",
     urlDemo: "https://password-manager-umber.vercel.app/",
   },
-  // {
-  //     id: 2,
-  //     title: "Desarrollo Web Ágil",
-  //     image: "/image-2.jpg",
-  //     urlGithub: "#!",
-  //     urlDemo: "#!",
-  // },
+  {
+      id: 2,
+      title: "Web Pacientes Veterinaria",
+      image: "/portfolio.png",
+      urlGithub: "https://github.com/Boloxxx/citas-react/",
+      urlDemo: "https://citas-react-rd.netlify.app/",
+  },
   // {
   //     id: 3,
   //     title: "Estrategias Web",
