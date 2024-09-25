@@ -20,13 +20,13 @@ export default function ImageProfile() {
             opacity: 1,
             transition: { delay: 0.5, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[506px] xl:h-[506px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[506px] xl:h-[506px] absolute"
         >
           <Image
-            className="rounded-full object-contain"
-            src="/profile.jpg"
+            className="object-contain mt-2 xl:mt-4 ml-1 md:mb-10"
+            src="/profile.png"
             alt="Profile pic"
-            width={498}
+            width={500}
             height={500}
           />
         </motion.div>
