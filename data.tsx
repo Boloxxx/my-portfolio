@@ -95,11 +95,11 @@ export const dataPortfolio = [
     urlDemo: "https://password-manager-umber.vercel.app/",
   },
   {
-      id: 2,
-      title: "Web Pacientes Veterinaria",
-      image: "/portfolio.png",
-      urlGithub: "https://github.com/Boloxxx/citas-react/",
-      urlDemo: "https://citas-react-rd.netlify.app/",
+    id: 2,
+    title: "Web Pacientes Veterinaria",
+    image: "/portfolio.png",
+    urlGithub: "https://github.com/Boloxxx/citas-react/",
+    urlDemo: "https://citas-react-rd.netlify.app/",
   },
   // {
   //     id: 3,
