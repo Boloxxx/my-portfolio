@@ -101,13 +101,13 @@ export const dataPortfolio = [
     urlGithub: "https://github.com/Boloxxx/citas-react/",
     urlDemo: "https://citas-react-rd.netlify.app/",
   },
-  // {
-  //     id: 3,
-  //     title: "Estrategias Web",
-  //     image: "/image-3.jpg",
-  //     urlGithub: "#!",
-  //     urlDemo: "#!",
-  // },
+  {
+      id: 3,
+      title: "Administrador de Gastos y Presupuestos",
+      image: "/admin-budget.png",
+      urlGithub: "https://github.com/Boloxxx/control-gastos-contextapi",
+      urlDemo: "https://admin-presupuestord.netlify.app/",
+  },
   // {
   //     id: 4,
   //     title: "Navegando Ideas Creativas",
