@@ -108,13 +108,13 @@ export const dataPortfolio = [
       urlGithub: "https://github.com/Boloxxx/control-gastos-contextapi",
       urlDemo: "https://admin-presupuestord.netlify.app/",
   },
-  // {
-  //     id: 4,
-  //     title: "Navegando Ideas Creativas",
-  //     image: "/image-4.jpg",
-  //     urlGithub: "#!",
-  //     urlDemo: "#!",
-  // },
+  {
+      id: 4,
+      title: "Clima App",
+      image: "/image-4.png",
+      urlGithub: "https://github.com/Boloxxx/app-clima",
+      urlDemo: "https://weatherrd.netlify.app/",
+  },
   // {
   //     id: 5,
   //     title: "Sitios Web Impactantes",
