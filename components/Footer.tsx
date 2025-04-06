@@ -18,7 +18,7 @@ export default function Footer() {
       </div>
       <Separator className="my-4"/>
       <div className="text-center">
-        &copy; 2024 | Landing Page By Bolox
+        &copy; 2025 | Landing Page By Bolox
       </div>
     </footer>
   );
