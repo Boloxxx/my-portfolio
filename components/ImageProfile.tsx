@@ -13,7 +13,7 @@ export default function ImageProfile() {
           opacity: 1,
           transition: { delay: 0.5, duration: 0.4, ease: "easeIn" },
         }}
-        className="w-[338px] h-[338px] xl:w-[606px] xl:h-[606px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center"
+        className="w-[338px] h-[338px] xl:w-[606px] xl:h-[606px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center pointer-events-none z-0"
       >
         <motion.div
           initial={{ opacity: 0 }}
@@ -26,8 +26,8 @@ export default function ImageProfile() {
             className="object-contain"
             src="/bryan-profile.png"
             alt="Profile pic"
-            width={900}
-            height={900}
+            width={600}
+            height={600}
           />
         </motion.div>
       </motion.div>
