@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function ImageProfile() {
   return (
-    <div>
+    <div className="relative">
       {/** Image */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -13,6 +13,7 @@ export default function ImageProfile() {
           opacity: 1,
           transition: { delay: 0.5, duration: 0.4, ease: "easeIn" },
         }}
+        className="w-[338px] h-[338px] xl:w-[606px] xl:h-[606px] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center"
       >
         <motion.div
           initial={{ opacity: 0 }}
@@ -20,23 +21,22 @@ export default function ImageProfile() {
             opacity: 1,
             transition: { delay: 0.5, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[506px] xl:h-[506px] absolute"
         >
           <Image
-            className="object-contain mt-2 xl:mt-4 ml-1 md:mb-10"
-            src="/profile.png"
+            className="object-contain"
+            src="/bryan-profile.png"
             alt="Profile pic"
-            width={500}
-            height={500}
+            width={900}
+            height={900}
           />
         </motion.div>
       </motion.div>
 
       {/**Circle */}
       <motion.svg
-        className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+        className="w-[250px] xl:w-[500px] h-[300px] xl:h-[506px]"
         fill="transparent"
-        viewBox="0 0 506 506"
+        viewBox="0 0 520 580"
         xmlns="http://www.w3.org/2000/svg"
       >
         <motion.circle
